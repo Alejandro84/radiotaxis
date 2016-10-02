@@ -1,6 +1,6 @@
 <?php
 
-   class Telefono
+   class Telefono extends CI_Models
    {
       private $id_telefono;
       private $id_tipo;

@@ -1,6 +1,6 @@
 <?php
 
-   class Cliente
+   class Cliente extends CI_Models
    {
       private $id_cliente;
       private $nombre;
