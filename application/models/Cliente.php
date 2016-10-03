@@ -83,6 +83,30 @@
          return $this->_estado;
       }
 
+      public function getAll()
+      {
+         #Select * from table;
+      }
+
+      public function getOne($id)
+      {
+         #SELECT * FROM table WHERE id= $id;
+      }
+
+      public function crear($data)
+      {
+
+      }
+
+      public function actualizar($id)
+      {
+
+      }
+
+      public function editar($id)
+      {
+
+      }
    }
 
 ?>
